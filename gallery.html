@@ -1,0 +1,897 @@
+﻿<!DOCTYPE html>
+<html lang="zxx" dir="ltr">
+<head>
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<title>Harvey's Creativity Museum</title>
+	
+	<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/slick.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/custom.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/media-query.css">
+	<link href="https://fonts.googleapis.com/css2?family=Jost:wght@400;600&family=Montserrat:wght@600;900&display=swap" rel="stylesheet">
+</head>
+<body>
+	<div class='cursor'></div>
+	<div class="main-wrapper">
+		<header class="rhw-header" id="rhw_header">
+			<nav class="primary-menu navbar navbar-expand-lg  border-bottom-0 rhw-sidebar">
+				<div class="close-btn hash-has-sub">
+					<a id="nav-close2" class="nav-close hash">
+						<div class="close-line" id="hamburger-7">
+							<span class="line"></span>
+							<span class="line"></span>
+							<span class="line"></span>
+						</div>
+					</a>
+				</div>
+				<div class="col-sm-3 col-md-3 back-color-shape"></div>
+		      	<div class="container-fluid px-lg-3 flex-lg-column profile-img-col justify-content-center"> 
+				        <a href="index.html" class="rhw-prof-img">
+							<span class="bg-dark-2 d-lg-inline-block">
+								<img class="img-fluid d-block rhw-pro-pic" src="assets/images/sidebar/profile.png"  alt="rhw profile pic">
+							</span>
+				        </a>
+				        <div class="rhw-logo"> 
+					        <a href="index.html" class="mt-lg-4 portfolio-logo">
+					        	<span class="d-lg-inline-block">
+					        		<img id="aaa"  class="rhw-logo" src="assets/images/sidebar/Logo.png" alt="This is rhw logo">
+					        	</span>
+					        </a>
+				    	</div>
+		        	<div id="header-nav" class="collapse navbar-collapse w-100 my-lg-auto">
+						<ul class="navbar-nav rhw-navbar-nav text-lg-center my-lg-auto tabs">
+							<li class="nav-item rhw-navbar-item" data-tab-value="#rhw_home_content">
+								<a class="nav-link rhw-navbar-link smooth-scroll active" href="index.html">
+									<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="#fff" class="bi bi-house-door" viewBox="0 0 16 16">
+										<path d="M8.354 1.146a.5.5 0 0 0-.708 0l-6 6A.5.5 0 0 0 1.5 7.5v7a.5.5 0 0 0 .5.5h4.5a.5.5 0 0 0 .5-.5v-4h2v4a.5.5 0 0 0 .5.5H14a.5.5 0 0 0 .5-.5v-7a.5.5 0 0 0-.146-.354L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.354 1.146ZM2.5 14V7.707l5.5-5.5 5.5 5.5V14H10v-4a.5.5 0 0 0-.5-.5h-3a.5.5 0 0 0-.5.5v4H2.5Z"/>
+									  </svg>
+									<span class="navbar-text"> Home 首页</span>
+								</a> 
+							</li>
+							<li class="nav-item rhw-navbar-item active" data-tab-value="#rhw_portfolio_content">
+								<a class="nav-link rhw-navbar-link smooth-scroll active" href="gallery.html">
+									<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="#fff" class="bi bi-camera" viewBox="0 0 16 16">
+										<path d="M15 12a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1h1.172a3 3 0 0 0 2.12-.879l.83-.828A1 1 0 0 1 6.827 3h2.344a1 1 0 0 1 .707.293l.828.828A3 3 0 0 0 12.828 5H14a1 1 0 0 1 1 1v6zM2 4a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2h-1.172a2 2 0 0 1-1.414-.586l-.828-.828A2 2 0 0 0 9.172 2H6.828a2 2 0 0 0-1.414.586l-.828.828A2 2 0 0 1 3.172 4H2z"/>
+										<path d="M8 11a2.5 2.5 0 1 1 0-5 2.5 2.5 0 0 1 0 5zm0 1a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7zM3 6.5a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0z"/>
+									  </svg>
+									<span class="navbar-text"> Gallery 影集</span></a>
+							</li>
+							<li class="nav-item rhw-navbar-item" data-tab-value="#rhw_design_content">
+								<a class="nav-link rhw-navbar-link smooth-scroll" href="design.html">
+									<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="#fff" class="bi bi-palette" viewBox="0 0 16 16">
+										<path d="M8 5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3zm4 3a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3zM5.5 7a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm.5 6a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3z"/>
+										<path d="M16 8c0 3.15-1.866 2.585-3.567 2.07C11.42 9.763 10.465 9.473 10 10c-.603.683-.475 1.819-.351 2.92C9.826 14.495 9.996 16 8 16a8 8 0 1 1 8-8zm-8 7c.611 0 .654-.171.655-.176.078-.146.124-.464.07-1.119-.014-.168-.037-.37-.061-.591-.052-.464-.112-1.005-.118-1.462-.01-.707.083-1.61.704-2.314.369-.417.845-.578 1.272-.618.404-.038.812.026 1.16.104.343.077.702.186 1.025.284l.028.008c.346.105.658.199.953.266.653.148.904.083.991.024C14.717 9.38 15 9.161 15 8a7 7 0 1 0-7 7z"/>
+									  </svg>
+									<span class="navbar-text"> Design 设计</span></a>
+							</li>
+							<li class="nav-item rhw-navbar-item" data-tab-value="#rhw_contact_content">
+								<a class="nav-link rhw-navbar-link smooth-scroll" href="contact.html">
+									<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="#fff" class="bi bi-envelope-at" viewBox="0 0 16 16">
+										<path d="M2 2a2 2 0 0 0-2 2v8.01A2 2 0 0 0 2 14h5.5a.5.5 0 0 0 0-1H2a1 1 0 0 1-.966-.741l5.64-3.471L8 9.583l7-4.2V8.5a.5.5 0 0 0 1 0V4a2 2 0 0 0-2-2H2Zm3.708 6.208L1 11.105V5.383l4.708 2.825ZM1 4.217V4a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1v.217l-7 4.2-7-4.2Z"/>
+										<path d="M14.247 14.269c1.01 0 1.587-.857 1.587-2.025v-.21C15.834 10.43 14.64 9 12.52 9h-.035C10.42 9 9 10.36 9 12.432v.214C9 14.82 10.438 16 12.358 16h.044c.594 0 1.018-.074 1.237-.175v-.73c-.245.11-.673.18-1.18.18h-.044c-1.334 0-2.571-.788-2.571-2.655v-.157c0-1.657 1.058-2.724 2.64-2.724h.04c1.535 0 2.484 1.05 2.484 2.326v.118c0 .975-.324 1.39-.639 1.39-.232 0-.41-.148-.41-.42v-2.19h-.906v.569h-.03c-.084-.298-.368-.63-.954-.63-.778 0-1.259.555-1.259 1.4v.528c0 .892.49 1.434 1.26 1.434.471 0 .896-.227 1.014-.643h.043c.118.42.617.648 1.12.648Zm-2.453-1.588v-.227c0-.546.227-.791.573-.791.297 0 .572.192.572.708v.367c0 .573-.253.744-.564.744-.354 0-.581-.215-.581-.8Z"/>
+									  </svg>
+									<span class="navbar-text"> Contact 联系作者 </span></a>
+							</li>
+						</ul>
+					</div>
+		        	<div class="rhw-copyright w-100" id="rhw_copyright">
+		        		<div class="copyright-text w-text">☀Harvey's Creativity Museum</div>
+		        	</div>
+		       	</div>
+		    </nav>
+		</header>
+	    <div class="rhw-resp-header">
+            <div class="resposnive-navbar">
+			  	<div class="container">
+			  		<div class="row align-items-center">
+			  			<div class="col-6 col-md-4 col-lg-4">
+			  				<a class="navbar-brand resp-rhw-logo" href="index.html">
+				      			<img src="assets/images/sidebar/Logo.png" alt="this is a logo of rhw page" class="align-text-top">
+				    		</a>
+			  			</div>
+			  			<div class="col-6 col-md-8 col-lg-8 icon-column position-relative">
+			  				<div class="three col">
+			  					<div class="hamburger" id="hamburger-6">
+			  						<span class="line"></span>
+			  						<span class="line"></span>
+			  						<span class="line"></span>
+			  					</div>
+			  				</div>
+			  			</div>
+			  		</div>
+			  	</div>
+			</div>
+		</div>
+		<div class="rhw-content-wrap tab-content">
+			<div class="circle-museum">
+				<img src="assets/images/homeimage/circle-museum.png" class="rhw-line-circle" alt="this is a line circle shape">
+			</div>
+			<div class="dot-rectangle-one">
+				<img src="assets/images/homeimage/dot-rectangle.png" class="rhw-dot-rectangle-one" alt="this is a dot rectangle shape one">
+			</div>
+		    <section class="rhw-portfolio-content min-vh-100 tabs_tab" id="rhw_portfolio_content">
+		    	<div class="container">
+		    		<div class="row justify-content-center text-center">
+		    			<div class="col-lg-12 p-0">
+		    				<div class="rhw-portfolio-title position-relative">
+		    					<h1 class="strock-heading portfolio-back-title mb-0">Gallery 影集</h1>
+		    					<div class="rhw-headi-text port-main-title w-text mb-0">Gallery 影集</div>
+		    				</div>
+		    				<div class="about-rhw-desc">
+		    					<p class="rhw-short-desc mb-0" style="margin:0 10%;">作为视觉重庆、站酷海洛、锐景图库等平台的签约摄影师及一名多平台的自由创作者，我为您带来我的个人摄影作品集与影像集，包括《在人大仰望星空》的人大地标星轨图，《龙年与故乡》的重庆武隆风景图，旅经各地时的风光积累以及学生生涯创作的部分短片，如《古都韵律：吆喝耀京城》等等，请您自由欣赏。</p>
+		    				</div>
+		    				<div class="tab-wrap">
+								  	<input type="radio" id="tab1" name="tabGroup1" class="tab" checked="">
+								    <label for="tab1">在人大仰望星空</label>
+
+								    <input type="radio" id="tab2" name="tabGroup1" class="tab">
+								    <label for="tab2">赛博都市</label>
+
+								    <input type="radio" id="tab3" name="tabGroup1" class="tab">
+								    <label for="tab3">夜空浩渺</label>
+
+								    <input type="radio" id="tab4" name="tabGroup1" class="tab">
+								    <label for="tab4">人文剪影</label>
+
+								    <input type="radio" id="tab5" name="tabGroup1" class="tab">
+								    <label for="tab5">自然雄奇</label>
+
+								    <input type="radio" id="tab6" name="tabGroup1" class="tab">
+								    <label for="tab6">放映厅</label>
+
+							    <div class="tab__content">
+							    	<div class="row justify-content-center text-center">
+							    		<div class="col-12 col-md-6 col-lg-4" id="deatil-col" data-bs-target="#rhw_detail_content">
+							    			<div class="all-content all-deatil-slider">
+							    				<div class="all-card">
+							    					<div class="magnific-img">
+							    						<a class="image-popup-vertical-fit" href="assets/images/gallery/人大/明德主楼星轨1.jpg">
+							    							<img src="assets/images/gallery/人大/明德主楼星轨1.jpg" alt="人大明德主楼星轨.jpg">
+							    							<i class="fa fa-search-plus" aria-hidden="true"></i>
+							    						</a>
+							    					</div>
+							    					<div class="info magnific-img">
+							    						<a class="image-popup-vertical-fit" href="assets/images/gallery/人大/明德主楼星轨1.jpg">
+							    							<div class="image-popup-vertical-fit all-card-title w-text">明德主楼</div>
+							    						</a>
+							    						<a class="image-popup-vertical-fit" href="assets/images/gallery/人大/明德主楼星轨1.jpg">
+							    							<p class="image-popup-vertical-fit all-card-subtitle w-text jost-400">满圆星轨</p>
+							    						</a>
+							    					</div>
+							    				</div>
+							    			</div>
+							    		</div>
+							    		<div class="col-12 col-md-6 col-lg-4">
+							    			<div class="all-content all-deatil-slider">
+							    				<div class="all-card">
+							    					<div class="magnific-img">
+							    						<a class="image-popup-vertical-fit" href="assets/images/gallery/人大/人大博物馆1.jpg">
+							    							<img src="assets/images/gallery/人大/人大博物馆1.jpg" alt="人大博物馆星轨">
+							    							<i class="fa fa-search-plus" aria-hidden="true"></i>
+							    						</a>
+							    					</div>
+							    					<div class="info magnific-img">
+							    						<a class="image-popup-vertical-fit" href="assets/images/gallery/人大/人大博物馆1.jpg">
+							    							<div class="image-popup-vertical-fit all-card-title w-text">人大博物馆</div>
+							    						</a>
+							    						<a class="image-popup-vertical-fit" href="assets/images/gallery/人大/人大博物馆1.jpg">
+							    							<p class="image-popup-vertical-fit all-card-subtitle w-text jost-400">半圆星轨</p>
+							    						</a>
+							    					</div>
+							    				</div>
+							    			</div>
+							    		</div>
+							    		<div class="col-12 col-md-6 col-lg-4">
+							    			<div class="all-content all-deatil-slider">
+							    				<div class="all-card">
+							    					<div class="magnific-img">
+							    						<a class="image-popup-vertical-fit" href="assets/images/gallery/人大/人大藏书馆1.jpg">
+							    							<img src="assets/images/gallery/人大/人大藏书馆1.jpg" alt="人大藏书馆星轨">
+							    							<i class="fa fa-search-plus" aria-hidden="true"></i>
+							    						</a>
+							    					</div>
+							    					<div class="info magnific-img">
+							    						<a class="image-popup-vertical-fit" href="assets/images/gallery/人大/人大藏书馆1.jpg">
+							    							<div class="image-popup-vertical-fit all-card-title w-text">人大藏书馆</div>
+							    						</a>
+							    						<a class="image-popup-vertical-fit" href="assets/images/gallery/人大/人大藏书馆1.jpg">
+							    							<p class="image-popup-vertical-fit all-card-subtitle w-text jost-400">满圆星轨</p>
+							    						</a>
+							    					</div>
+							    				</div>
+							    			</div>
+							    		</div>
+							    		<div class="col-12 col-md-6 col-lg-4">
+							    			<div class="all-content all-tab-row-two">
+							    				<div class="all-card">
+							    					<div class="magnific-img">
+							    						<a class="image-popup-vertical-fit" href="assets/images/gallery/人大/人大明德楼1.jpg">
+							    							<img src="assets/images/gallery/人大/人大明德楼1.jpg" alt="人大明商楼星轨">
+							    							<i class="fa fa-search-plus" aria-hidden="true"></i>
+							    						</a>
+							    					</div>
+							    					<div class="info magnific-img">
+							    						<a class="image-popup-vertical-fit" href="assets/images/gallery/人大/人大明德楼1.jpg">
+							    							<div class="image-popup-vertical-fit all-card-title w-text">人大明商楼</div>
+							    						</a>
+							    						<a class="image-popup-vertical-fit" href="assets/images/gallery/人大/人大明德楼1.jpg">
+							    							<p class="image-popup-vertical-fit all-card-subtitle w-text jost-400">Logo星轨</p>
+							    						</a>
+							    					</div>
+							    				</div>
+							    			</div>
+							    		</div>
+							    		<div class="col-12 col-md-6 col-lg-4">
+							    			<div class="all-content all-tab-row-two">
+							    				<div class="all-card">
+							    					<div class="magnific-img">
+							    						<a class="image-popup-vertical-fit" href="assets/images/gallery/人大/图书馆星轨1.jpg">
+							    							<img src="assets/images/gallery/人大/图书馆星轨1.jpg" alt="人大图书馆星轨">
+							    							<i class="fa fa-search-plus" aria-hidden="true"></i>
+							    						</a>
+							    					</div>
+							    					<div class="info magnific-img">
+							    						<a class="image-popup-vertical-fit" href="assets/images/gallery/人大/图书馆星轨1.jpg">
+							    							<div class="image-popup-vertical-fit all-card-title w-text">人大图书馆</div>
+							    						</a>
+							    						<a class="image-popup-vertical-fit" href="assets/images/gallery/人大/图书馆星轨1.jpg">
+							    							<p class="image-popup-vertical-fit all-card-subtitle w-text jost-400">涡旋星轨</p>
+							    						</a>
+							    					</div>
+							    				</div>
+							    			</div>
+							    		</div>
+							    		<div class="col-12 col-md-6 col-lg-4">
+							    			<div class="all-content all-tab-row-two">
+							    				<div class="all-card">
+							    					<div class="magnific-img">
+							    						<a class="image-popup-vertical-fit" href="assets/images/gallery/人大/星转逸夫堂1.jpg">
+							    							<img src="assets/images/gallery/人大/星转逸夫堂1.jpg" alt="人大逸夫堂星轨">
+							    							<i class="fa fa-search-plus" aria-hidden="true"></i>
+							    						</a>
+							    					</div>
+							    					<div class="info magnific-img">
+							    						<a class="image-popup-vertical-fit" href="assets/images/gallery/人大/星转逸夫堂1.jpg">
+							    							<div class="image-popup-vertical-fit all-card-title w-text">人大逸夫堂</div>
+							    						</a>
+							    						<a class="image-popup-vertical-fit" href="assets/images/gallery/人大/星转逸夫堂1.jpg">
+							    							<p class="image-popup-vertical-fit all-card-subtitle w-text jost-400">全景星轨</p>
+							    						</a>
+							    					</div>
+							    				</div>
+							    			</div>
+							    		</div>
+							    	</div>
+							    </div>
+
+							    <div class="tab__content">
+							    	<div class="row justify-content-center text-center">
+							    		<div class="col-12 col-md-6 col-lg-4" id="deatil-col-one" data-bs-target="#rhw_detail_content">
+							    			<div class="all-content detail-card-one">
+							    				<div class="all-card">
+							    					<div class="magnific-img">
+							    						<a class="image-popup-vertical-fit" href="assets/images/gallery/赛博都市/大美武隆，夜迎龙年.jpg">
+							    							<img src="assets/images/gallery/赛博都市/大美武隆，夜迎龙年.jpg" alt="大美武隆，夜迎龙年">
+							    							<i class="fa fa-search-plus" aria-hidden="true"></i>
+							    						</a>
+							    					</div>
+							    					<div class="info magnific-img">
+							    						<a class="image-popup-vertical-fit" href="assets/images/gallery/赛博都市/大美武隆，夜迎龙年.jpg">
+							    							<div class="image-popup-vertical-fit all-card-title w-text">武隆城区</div>
+							    						</a>
+							    						<a class="image-popup-vertical-fit" href="assets/images/gallery/赛博都市/大美武隆，夜迎龙年.jpg">
+							    							<p class="image-popup-vertical-fit all-card-subtitle w-text jost-400">龙年灯饰</p>
+							    						</a>
+							    					</div>
+							    				</div>
+							    			</div>
+							    		</div>
+							    		<div class="col-12 col-md-6 col-lg-4">
+							    			<div class="all-content detail-card-two">
+							    				<div class="all-card">
+							    					<div class="magnific-img">
+							    						<a class="image-popup-vertical-fit" href="assets/images/gallery/赛博都市/东水门之夜，车如水，人如潮.jpg">
+							    							<img src="assets/images/gallery/赛博都市/东水门之夜，车如水，人如潮.jpg" alt="东水门之夜，车如水，人如潮">
+							    							<i class="fa fa-search-plus" aria-hidden="true"></i>
+							    						</a>
+							    					</div>
+							    					<div class="info magnific-img">
+							    						<a class="image-popup-vertical-fit" href="assets/images/gallery/赛博都市/东水门之夜，车如水，人如潮.jpg">
+							    							<div class="image-popup-vertical-fit all-card-title w-text">东水门之夜</div>
+							    						</a>
+							    						<a class="image-popup-vertical-fit" href="assets/images/gallery/赛博都市/东水门之夜，车如水，人如潮.jpg">
+							    							<p class="image-popup-vertical-fit all-card-subtitle w-text jost-400">车如水，人如潮</p>
+							    						</a>
+							    					</div>
+							    				</div>
+							    			</div>
+							    		</div>
+							    		<div class="col-12 col-md-6 col-lg-4">
+							    			<div class="all-content detail-card-three">
+							    				<div class="all-card">
+							    					<div class="magnific-img">
+							    						<a class="image-popup-vertical-fit" href="assets/images/gallery/赛博都市/assets/images/gallery/赛博都市/镜花水月映国尊.jpg">
+							    							<img src="assets/images/gallery/赛博都市/镜花水月映国尊.jpg" alt="镜花水月映国尊">
+							    							<i class="fa fa-search-plus" aria-hidden="true"></i>
+							    						</a>
+							    					</div>
+							    					<div class="info magnific-img">
+							    						<a class="image-popup-vertical-fit" href="assets/images/gallery/赛博都市/镜花水月映国尊.jpg">
+							    							<div class="image-popup-vertical-fit all-card-title w-text">镜花水月</div>
+							    						</a>
+							    						<a class="image-popup-vertical-fit" href="assets/images/gallery/赛博都市/镜花水月映国尊.jpg">
+							    							<p class="image-popup-vertical-fit all-card-subtitle w-text jost-400">映国尊</p>
+							    						</a>
+							    					</div>
+							    				</div>
+							    			</div>
+							    		</div>
+										<div class="col-12 col-md-6 col-lg-4">
+											<div class="all-content all-tab-row-two">
+												<div class="all-card">
+													<div class="magnific-img">
+														<a class="image-popup-vertical-fit" href="assets/images/gallery/赛博都市/霞迎大剧院.jpg">
+															<img src="assets/images/gallery/赛博都市/霞迎大剧院.jpg" alt="国家大剧院之朝霞">
+															<i class="fa fa-search-plus" aria-hidden="true"></i>
+														</a>
+													</div>
+													<div class="info magnific-img">
+														<a class="image-popup-vertical-fit" href="assets/images/gallery/赛博都市/霞迎大剧院.jpg">
+															<div class="image-popup-vertical-fit all-card-title w-text">霞迎大剧院</div>
+														</a>
+														<a class="image-popup-vertical-fit" href="assets/images/gallery/赛博都市/霞迎大剧院.jpg">
+															<p class="image-popup-vertical-fit all-card-subtitle w-text jost-400">国家大剧院之朝霞</p>
+														</a>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="col-12 col-md-6 col-lg-4">
+											<div class="all-content all-tab-row-two">
+												<div class="all-card">
+													<div class="magnific-img">
+														<a class="image-popup-vertical-fit" href="assets\images\gallery\赛博都市\一江，两岸，三绝景：索道、大桥、夜重庆.jpg">
+															<img src="assets\images\gallery\赛博都市\一江，两岸，三绝景：索道、大桥、夜重庆.jpg" alt="长江夜景">
+															<i class="fa fa-search-plus" aria-hidden="true"></i>
+														</a>
+													</div>
+													<div class="info magnific-img">
+														<a class="image-popup-vertical-fit" href="assets\images\gallery\赛博都市\一江，两岸，三绝景：索道、大桥、夜重庆.jpg">
+															<div class="image-popup-vertical-fit all-card-title w-text">一江，两岸，三绝景</div>
+														</a>
+														<a class="image-popup-vertical-fit" href="assets\images\gallery\赛博都市\一江，两岸，三绝景：索道、大桥、夜重庆.jpg">
+															<p class="image-popup-vertical-fit all-card-subtitle w-text jost-400">索道、大桥、夜重庆</p>
+														</a>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="col-12 col-md-6 col-lg-4">
+											<div class="all-content all-tab-row-two">
+												<div class="all-card">
+													<div class="magnific-img">
+														<a class="image-popup-vertical-fit" href="assets\images\gallery\赛博都市\绝美蓝调，天津之日暮.jpg">
+															<img src="assets\images\gallery\赛博都市\绝美蓝调，天津之日暮.jpg" alt="天津蓝调">
+															<i class="fa fa-search-plus" aria-hidden="true"></i>
+														</a>
+													</div>
+													<div class="info magnific-img">
+														<a class="image-popup-vertical-fit" href="assets\images\gallery\赛博都市\绝美蓝调，天津之日暮.jpg">
+															<div class="image-popup-vertical-fit all-card-title w-text">绝美蓝调</div>
+														</a>
+														<a class="image-popup-vertical-fit" href="assets\images\gallery\赛博都市\绝美蓝调，天津之日暮.jpg">
+															<p class="image-popup-vertical-fit all-card-subtitle w-text jost-400">天津之日暮</p>
+														</a>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="col-12 col-md-6 col-lg-4">
+											<div class="all-content all-tab-row-two">
+												<div class="all-card">
+													<div class="magnific-img">
+														<a class="image-popup-vertical-fit" href="assets\images\gallery\赛博都市\一桥跨两岸，一城朝天门.jpg">
+															<img src="assets\images\gallery\赛博都市\一桥跨两岸，一城朝天门.jpg" alt="朝天门长江大桥">
+															<i class="fa fa-search-plus" aria-hidden="true"></i>
+														</a>
+													</div>
+													<div class="info magnific-img">
+														<a class="image-popup-vertical-fit" href="assets\images\gallery\赛博都市\一桥跨两岸，一城朝天门.jpg">
+															<div class="image-popup-vertical-fit all-card-title w-text">一桥跨两岸</div>
+														</a>
+														<a class="image-popup-vertical-fit" href="assets\images\gallery\赛博都市\一桥跨两岸，一城朝天门.jpg">
+															<p class="image-popup-vertical-fit all-card-subtitle w-text jost-400">江畔朝天门</p>
+														</a>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="col-12 col-md-6 col-lg-4">
+											<div class="all-content all-tab-row-two">
+												<div class="all-card">
+													<div class="magnific-img">
+														<a class="image-popup-vertical-fit" href="assets\images\gallery\赛博都市\明度来福士.jpg">
+															<img src="assets\images\gallery\赛博都市\明度来福士.jpg" alt="来福士明度建筑">
+															<i class="fa fa-search-plus" aria-hidden="true"></i>
+														</a>
+													</div>
+													<div class="info magnific-img">
+														<a class="image-popup-vertical-fit" href="assets\images\gallery\赛博都市\明度来福士.jpg">
+															<div class="image-popup-vertical-fit all-card-title w-text">明度光影</div>
+														</a>
+														<a class="image-popup-vertical-fit" href="assets\images\gallery\赛博都市\明度来福士.jpg">
+															<p class="image-popup-vertical-fit all-card-subtitle w-text jost-400">来福士扬帆</p>
+														</a>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="col-12 col-md-6 col-lg-4">
+											<div class="all-content all-tab-row-two">
+												<div class="all-card">
+													<div class="magnific-img">
+														<a class="image-popup-vertical-fit" href="assets\images\gallery\赛博都市\横览朝天门.jpg">
+															<img src="assets\images\gallery\赛博都市\横览朝天门.jpg" alt="朝天门长江大桥">
+															<i class="fa fa-search-plus" aria-hidden="true"></i>
+														</a>
+													</div>
+													<div class="info magnific-img">
+														<a class="image-popup-vertical-fit" href="assets\images\gallery\赛博都市\横览朝天门.jpg">
+															<div class="image-popup-vertical-fit all-card-title w-text">江畔无限好</div>
+														</a>
+														<a class="image-popup-vertical-fit" href="assets\images\gallery\赛博都市\横览朝天门.jpg">
+															<p class="image-popup-vertical-fit all-card-subtitle w-text jost-400">一览山城景</p>
+														</a>
+													</div>
+												</div>
+											</div>
+										</div>
+							    	</div>
+							    </div>
+
+							    <div class="tab__content">
+							    	<div class="row justify-content-center text-center">
+							    		<div class="col-12 col-md-6 col-lg-4" id="deatil-col" data-bs-target="#rhw_detail_content">
+							    			<div class="all-content all-deatil-slider">
+							    				<div class="all-card">
+							    					<div class="magnific-img">
+							    						<a class="image-popup-vertical-fit" href="assets/images/gallery/夜空浩渺/仙女山之银河盖地.jpg">
+							    							<img src="assets/images/gallery/夜空浩渺/仙女山之银河盖地.jpg" alt="仙女山之银河盖地.jpg">
+							    							<i class="fa fa-search-plus" aria-hidden="true"></i>
+							    						</a>
+							    					</div>
+							    					<div class="info magnific-img">
+							    						<a class="image-popup-vertical-fit" href="assets/images/gallery/夜空浩渺/仙女山之银河盖地.jpg">
+							    							<div class="image-popup-vertical-fit all-card-title w-text">仙女山麓</div>
+							    						</a>
+							    						<a class="image-popup-vertical-fit" href="assets/images/gallery/夜空浩渺/仙女山之银河盖地.jpg">
+							    							<p class="image-popup-vertical-fit all-card-subtitle w-text jost-400">银河盖地</p>
+							    						</a>
+							    					</div>
+							    				</div>
+							    			</div>
+							    		</div>
+										<div class="col-12 col-md-6 col-lg-4" id="deatil-col" data-bs-target="#rhw_detail_content">
+							    			<div class="all-content all-deatil-slider">
+							    				<div class="all-card">
+							    					<div class="magnific-img">
+							    						<a class="image-popup-vertical-fit" href="assets/images/gallery/夜空浩渺/金字塔尖，星月共辉.jpg">
+							    							<img src="assets/images/gallery/夜空浩渺/金字塔尖，星月共辉.jpg" alt="金字塔尖，星月共辉.jpg">
+							    							<i class="fa fa-search-plus" aria-hidden="true"></i>
+							    						</a>
+							    					</div>
+							    					<div class="info magnific-img">
+							    						<a class="image-popup-vertical-fit" href="assets/images/gallery/夜空浩渺/金字塔尖，星月共辉.jpg">
+							    							<div class="image-popup-vertical-fit all-card-title w-text">金字塔尖</div>
+							    						</a>
+							    						<a class="image-popup-vertical-fit" href="assets/images/gallery/夜空浩渺/金字塔尖，星月共辉.jpg">
+							    							<p class="image-popup-vertical-fit all-card-subtitle w-text jost-400">星月共辉</p>
+							    						</a>
+							    					</div>
+							    				</div>
+							    			</div>
+							    		</div>
+										<div class="col-12 col-md-6 col-lg-4">
+											<div class="all-content all-deatil-slider">
+												<div class="all-card">
+													<div class="magnific-img">
+														<a class="image-popup-vertical-fit" href="assets/images/gallery/夜空浩渺/远眺彩月.png">
+															<img src="assets/images/gallery/夜空浩渺/远眺彩月.png" alt="远眺彩月">
+															<i class="fa fa-search-plus" aria-hidden="true"></i>
+														</a>
+													</div>
+													<div class="info magnific-img">
+														<a class="image-popup-vertical-fit" href="assets/images/gallery/夜空浩渺/远眺彩月.png">
+															<div class="image-popup-vertical-fit all-card-title w-text">远眺彩月</div>
+														</a>
+														<a class="image-popup-vertical-fit" href="assets/images/gallery/夜空浩渺/远眺彩月.png">
+															<p class="image-popup-vertical-fit all-card-subtitle w-text jost-400">一览无余</p>
+														</a>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+							    </div>
+
+							    <div class="tab__content">
+							    	<div class="row justify-content-center text-center">
+							    		<div class="col-12 col-md-6 col-lg-4" id="deatil-col" data-bs-target="#rhw_detail_content">
+							    			<div class="all-content all-deatil-slider">
+							    				<div class="all-card">
+							    					<div class="magnific-img">
+							    						<a class="image-popup-vertical-fit" href="assets/images/gallery/人文剪影/机凌朝天宫.jpg">
+							    							<img src="assets/images/gallery/人文剪影/机凌朝天宫.jpg" alt="机凌朝天宫.jpg">
+							    							<i class="fa fa-search-plus" aria-hidden="true"></i>
+							    						</a>
+							    					</div>
+							    					<div class="info magnific-img">
+							    						<a class="image-popup-vertical-fit" href="assets/images/gallery/人文剪影/机凌朝天宫.jpg">
+							    							<div class="image-popup-vertical-fit all-card-title w-text">机凌朝天宫</div>
+							    						</a>
+							    						<a class="image-popup-vertical-fit" href="assets/images/gallery/人文剪影/机凌朝天宫.jpg">
+							    							<p class="image-popup-vertical-fit all-card-subtitle w-text jost-400">厦门朝天宫</p>
+							    						</a>
+							    					</div>
+							    				</div>
+							    			</div>
+							    		</div>
+							    		<div class="col-12 col-md-6 col-lg-4">
+							    			<div class="all-content all-deatil-slider">
+							    				<div class="all-card">
+							    					<div class="magnific-img">
+							    						<a class="image-popup-vertical-fit" href="assets/images/gallery/人文剪影/家常年夜饭.jpg">
+							    							<img src="assets/images/gallery/人文剪影/家常年夜饭.jpg" alt="家常年夜饭">
+							    							<i class="fa fa-search-plus" aria-hidden="true"></i>
+							    						</a>
+							    					</div>
+							    					<div class="info magnific-img">
+							    						<a class="image-popup-vertical-fit" href="assets/images/gallery/人文剪影/家常年夜饭.jpg">
+							    							<div class="image-popup-vertical-fit all-card-title w-text">年夜饭</div>
+							    						</a>
+							    						<a class="image-popup-vertical-fit" href="assets/images/gallery/人文剪影/家常年夜饭.jpg">
+							    							<p class="image-popup-vertical-fit all-card-subtitle w-text jost-400">家和万事兴</p>
+							    						</a>
+							    					</div>
+							    				</div>
+							    			</div>
+							    		</div>
+							    		<div class="col-12 col-md-6 col-lg-4">
+							    			<div class="all-content all-deatil-slider">
+							    				<div class="all-card">
+							    					<div class="magnific-img">
+							    						<a class="image-popup-vertical-fit" href="assets/images/gallery/人文剪影/乡野烧烤之火腿面筋.jpg">
+							    							<img src="assets/images/gallery/人文剪影/乡野烧烤之火腿面筋.jpg" alt="乡野烧烤之火腿面筋">
+							    							<i class="fa fa-search-plus" aria-hidden="true"></i>
+							    						</a>
+							    					</div>
+							    					<div class="info magnific-img">
+							    						<a class="image-popup-vertical-fit" href="assets/images/gallery/人文剪影/乡野烧烤之火腿面筋.jpg">
+							    							<div class="image-popup-vertical-fit all-card-title w-text">乡野烧烤</div>
+							    						</a>
+							    						<a class="image-popup-vertical-fit" href="assets/images/gallery/人文剪影/乡野烧烤之火腿面筋.jpg">
+							    							<p class="image-popup-vertical-fit all-card-subtitle w-text jost-400">火腿面筋</p>
+							    						</a>
+							    					</div>
+							    				</div>
+							    			</div>
+							    		</div>
+							    		<div class="col-12 col-md-6 col-lg-4">
+							    			<div class="all-content all-tab-row-two">
+							    				<div class="all-card">
+							    					<div class="magnific-img">
+							    						<a class="image-popup-vertical-fit" href="assets/images/gallery/人文剪影/乡野烧烤之碳烤小黄鱼.jpg">
+							    							<img src="assets/images/gallery/人文剪影/乡野烧烤之碳烤小黄鱼.jpg" alt="乡野烧烤之碳烤小黄鱼">
+							    							<i class="fa fa-search-plus" aria-hidden="true"></i>
+							    						</a>
+							    					</div>
+							    					<div class="info magnific-img">
+							    						<a class="image-popup-vertical-fit" href="assets/images/gallery/人文剪影/乡野烧烤之碳烤小黄鱼.jpg">
+							    							<div class="image-popup-vertical-fit all-card-title w-text">乡野烧烤</div>
+							    						</a>
+							    						<a class="image-popup-vertical-fit" href="assets/images/gallery/人文剪影/乡野烧烤之碳烤小黄鱼.jpg">
+							    							<p class="image-popup-vertical-fit all-card-subtitle w-text jost-400">碳烤小黄鱼</p>
+							    						</a>
+							    					</div>
+							    				</div>
+							    			</div>
+							    		</div>
+							    		<div class="col-12 col-md-6 col-lg-4">
+							    			<div class="all-content all-tab-row-two">
+							    				<div class="all-card">
+							    					<div class="magnific-img">
+							    						<a class="image-popup-vertical-fit" href="assets/images/gallery/人文剪影/农家佐料.jpg">
+							    							<img src="assets/images/gallery/人文剪影/农家佐料.jpg" alt="农家佐料">
+							    							<i class="fa fa-search-plus" aria-hidden="true"></i>
+							    						</a>
+							    					</div>
+							    					<div class="info magnific-img">
+							    						<a class="image-popup-vertical-fit" href="assets/images/gallery/人文剪影/农家佐料.jpg">
+							    							<div class="image-popup-vertical-fit all-card-title w-text">乡野烧烤</div>
+							    						</a>
+							    						<a class="image-popup-vertical-fit" href="assets/images/gallery/人文剪影/农家佐料.jpg">
+							    							<p class="image-popup-vertical-fit all-card-subtitle w-text jost-400">农家佐料</p>
+							    						</a>
+							    					</div>
+							    				</div>
+							    			</div>
+							    		</div>
+							    		<div class="col-12 col-md-6 col-lg-4">
+							    			<div class="all-content all-tab-row-two">
+							    				<div class="all-card">
+							    					<div class="magnific-img">
+							    						<a class="image-popup-vertical-fit" href="assets/images/gallery/人文剪影/机越古迹.jpg">
+							    							<img src="assets/images/gallery/人文剪影/机越古迹.jpg" alt="机越古迹">
+							    							<i class="fa fa-search-plus" aria-hidden="true"></i>
+							    						</a>
+							    					</div>
+							    					<div class="info magnific-img">
+							    						<a class="image-popup-vertical-fit" href="assets/images/gallery/人文剪影/机越古迹.jpg">
+							    							<div class="image-popup-vertical-fit all-card-title w-text">机越古迹</div>
+							    						</a>
+							    						<a class="image-popup-vertical-fit" href="assets/images/gallery/人文剪影/机越古迹.jpg">
+							    							<p class="image-popup-vertical-fit all-card-subtitle w-text jost-400">厦门朝天宫</p>
+							    						</a>
+							    					</div>
+							    				</div>
+							    			</div>
+							    		</div>
+							    	</div>
+							    </div>
+
+							    <div class="tab__content">
+									<div class="row justify-content-center text-center">
+							    		<div class="col-12 col-md-6 col-lg-4" id="deatil-col" data-bs-target="#rhw_detail_content">
+							    			<div class="all-content all-deatil-slider">
+							    				<div class="all-card">
+							    					<div class="magnific-img">
+							    						<a class="image-popup-vertical-fit" href="assets\images\gallery\自然雄奇\绝景天生三桥.jpg">
+							    							<img src="assets\images\gallery\自然雄奇\绝景天生三桥.jpg" alt="绝景天生三桥.jpg">
+							    							<i class="fa fa-search-plus" aria-hidden="true"></i>
+							    						</a>
+							    					</div>
+							    					<div class="info magnific-img">
+							    						<a class="image-popup-vertical-fit" href="assets\images\gallery\自然雄奇\绝景天生三桥.jpg">
+							    							<div class="image-popup-vertical-fit all-card-title w-text">深坑见奇观</div>
+							    						</a>
+							    						<a class="image-popup-vertical-fit" href="assets\images\gallery\自然雄奇\绝景天生三桥.jpg">
+							    							<p class="image-popup-vertical-fit all-card-subtitle w-text jost-400">天福官驿</p>
+							    						</a>
+							    					</div>
+							    				</div>
+							    			</div>
+							    		</div>
+							    		<div class="col-12 col-md-6 col-lg-4">
+							    			<div class="all-content all-deatil-slider">
+							    				<div class="all-card">
+							    					<div class="magnific-img">
+							    						<a class="image-popup-vertical-fit" href="assets/images/gallery/自然雄奇/龙泉洞水清如纱.jpg">
+							    							<img src="assets/images/gallery/自然雄奇/龙泉洞水清如纱.jpg" alt="龙泉洞水清如纱">
+							    							<i class="fa fa-search-plus" aria-hidden="true"></i>
+							    						</a>
+							    					</div>
+							    					<div class="info magnific-img">
+							    						<a class="image-popup-vertical-fit" href="assets/images/gallery/自然雄奇/龙泉洞水清如纱.jpg">
+							    							<div class="image-popup-vertical-fit all-card-title w-text">龙泉洞</div>
+							    						</a>
+							    						<a class="image-popup-vertical-fit" href="assets/images/gallery/自然雄奇/龙泉洞水清如纱.jpg">
+							    							<p class="image-popup-vertical-fit all-card-subtitle w-text jost-400">水清如纱</p>
+							    						</a>
+							    					</div>
+							    				</div>
+							    			</div>
+							    		</div>
+							    		<div class="col-12 col-md-6 col-lg-4">
+							    			<div class="all-content all-deatil-slider">
+							    				<div class="all-card">
+							    					<div class="magnific-img">
+							    						<a class="image-popup-vertical-fit" href="assets/images/gallery/自然雄奇/神龙天坑下，古驿千年立.jpg">
+							    							<img src="assets/images/gallery/自然雄奇/神龙天坑下，古驿千年立.jpg" alt="神龙天坑下，古驿千年立">
+							    							<i class="fa fa-search-plus" aria-hidden="true"></i>
+							    						</a>
+							    					</div>
+							    					<div class="info magnific-img">
+							    						<a class="image-popup-vertical-fit" href="assets/images/gallery/自然雄奇/神龙天坑下，古驿千年立.jpg">
+							    							<div class="image-popup-vertical-fit all-card-title w-text">神龙天坑下</div>
+							    						</a>
+							    						<a class="image-popup-vertical-fit" href="assets/images/gallery/自然雄奇/神龙天坑下，古驿千年立.jpg">
+							    							<p class="image-popup-vertical-fit all-card-subtitle w-text jost-400">古驿千年立</p>
+							    						</a>
+							    					</div>
+							    				</div>
+							    			</div>
+							    		</div>
+							    		<div class="col-12 col-md-6 col-lg-4">
+							    			<div class="all-content all-tab-row-two">
+							    				<div class="all-card">
+							    					<div class="magnific-img">
+							    						<a class="image-popup-vertical-fit" href="assets/images/gallery/自然雄奇/雾掩古驿.jpg">
+							    							<img src="assets/images/gallery/自然雄奇/雾掩古驿.jpg" alt="雾掩古驿">
+							    							<i class="fa fa-search-plus" aria-hidden="true"></i>
+							    						</a>
+							    					</div>
+							    					<div class="info magnific-img">
+							    						<a class="image-popup-vertical-fit" href="assets/images/gallery/自然雄奇/雾掩古驿.jpg">
+							    							<div class="image-popup-vertical-fit all-card-title w-text">浓雾掩映</div>
+							    						</a>
+							    						<a class="image-popup-vertical-fit" href="assets/images/gallery/自然雄奇/雾掩古驿.jpg">
+							    							<p class="image-popup-vertical-fit all-card-subtitle w-text jost-400">古驿常青</p>
+							    						</a>
+							    					</div>
+							    				</div>
+							    			</div>
+							    		</div>
+							    		<div class="col-12 col-md-6 col-lg-4">
+							    			<div class="all-content all-tab-row-two">
+							    				<div class="all-card">
+							    					<div class="magnific-img">
+							    						<a class="image-popup-vertical-fit" href="assets/images/gallery/自然雄奇/小船悬浮于碧湖之上.jpg">
+							    							<img src="assets/images/gallery/自然雄奇/小船悬浮于碧湖之上.jpg" alt="小船悬浮于碧湖之上">
+							    							<i class="fa fa-search-plus" aria-hidden="true"></i>
+							    						</a>
+							    					</div>
+							    					<div class="info magnific-img">
+							    						<a class="image-popup-vertical-fit" href="assets/images/gallery/自然雄奇/小船悬浮于碧湖之上.jpg">
+							    							<div class="image-popup-vertical-fit all-card-title w-text">碧波之上</div>
+							    						</a>
+							    						<a class="image-popup-vertical-fit" href="assets/images/gallery/自然雄奇/小船悬浮于碧湖之上.jpg">
+							    							<p class="image-popup-vertical-fit all-card-subtitle w-text jost-400">小船空浮</p>
+							    						</a>
+							    					</div>
+							    				</div>
+							    			</div>
+							    		</div>
+							    		<div class="col-12 col-md-6 col-lg-4">
+							    			<div class="all-content all-tab-row-two">
+							    				<div class="all-card">
+							    					<div class="magnific-img">
+							    						<a class="image-popup-vertical-fit" href="assets/images/gallery/自然雄奇/玉渊潭暖鸭先知.jpg">
+							    							<img src="assets/images/gallery/自然雄奇/玉渊潭暖鸭先知.jpg" alt="玉渊潭暖鸭先知">
+							    							<i class="fa fa-search-plus" aria-hidden="true"></i>
+							    						</a>
+							    					</div>
+							    					<div class="info magnific-img">
+							    						<a class="image-popup-vertical-fit" href="assets/images/gallery/自然雄奇/玉渊潭暖鸭先知.jpg">
+							    							<div class="image-popup-vertical-fit all-card-title w-text">玉渊潭暖</div>
+							    						</a>
+							    						<a class="image-popup-vertical-fit" href="assets/images/gallery/自然雄奇/玉渊潭暖鸭先知.jpg">
+							    							<p class="image-popup-vertical-fit all-card-subtitle w-text jost-400">鸭先知</p>
+							    						</a>
+							    					</div>
+							    				</div>
+							    			</div>
+							    		</div>
+							    	</div>
+							    </div>
+
+							    <div class="tab__content">
+							    	<div class="row justify-content-start text-center">
+							    		<div class="col-12 col-md-6 col-lg-4" id="bilibili-col" data-bs-target="#rhw_detail_content">
+											<div class="all-content bilibili-card-one">
+												<div class="all-card">
+													<a class="popup-bilibili" href="https://player.bilibili.com/player.html?aid=855415812&bvid=BV1jL4y1w7VV&cid=761166889&p=1&high_quality=1&danmaku=0">
+														<img src="assets/images/gallery/放映厅/神奇宝贝.png" alt="this is a all image" class="all-image">
+													</a>
+													<div class="info">
+														<a href="https://player.bilibili.com/player.html?aid=855415812&bvid=BV1jL4y1w7VV&cid=761166889&p=1&high_quality=1&danmaku=0" class="popup-bilibili">
+															<div class="all-card-title w-text">数据可视化作品</div>
+														</a>
+														<a href="https://player.bilibili.com/player.html?aid=855415812&bvid=BV1jL4y1w7VV&cid=761166889&p=1&high_quality=1&danmaku=0" class="popup-bilibili">
+															<p class="all-card-subtitle w-text jost-400">神奇宝贝：永恒的冒险王国</p>
+														</a>
+													</div>
+												</div>
+											</div>
+										</div>
+							    		<div class="col-12 col-md-6 col-lg-4" id="bilibili-col" data-bs-target="#rhw_detail_content">
+											<div class="all-content bilibili-card-one">
+												<div class="all-card">
+													<a class="popup-bilibili" href="https://player.bilibili.com/player.html?aid=554375773&bvid=BV1gv4y1P7Sh&cid=730686758&p=1&high_quality=1&danmaku=0">
+														<img src="assets/images/gallery/放映厅/逃.png" alt="this is a all image" class="all-image">
+													</a>
+													<div class="info">
+														<a href="https://player.bilibili.com/player.html?aid=554375773&bvid=BV1gv4y1P7Sh&cid=730686758&p=1&high_quality=1&danmaku=0" class="popup-bilibili">
+															<div class="all-card-title w-text">逃</div>
+														</a>
+														<a href="https://player.bilibili.com/player.html?aid=1454066595&bvid=BV1ni421y7EG&cid=1533226092&p=1&high_quality=1&danmaku=0" class="popup-bilibili">
+															<p class="all-card-subtitle w-text jost-400">大一影像技术</p>
+														</a>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="col-12 col-md-6 col-lg-4" id="bilibili-col" data-bs-target="#rhw_detail_content">
+											<div class="all-content bilibili-card-one">
+												<div class="all-card">
+													<a class="popup-bilibili" href="https://player.bilibili.com/player.html?aid=1454066595&bvid=BV1ni421y7EG&cid=1533226092&p=1&high_quality=1&danmaku=0">
+														<img src="assets/images/gallery/放映厅/吆喝叫卖.png" alt="this is a all image" class="all-image">
+													</a>
+													<div class="info">
+														<a href="https://player.bilibili.com/player.html?aid=1454066595&bvid=BV1ni421y7EG&cid=1533226092&p=1&high_quality=1&danmaku=0" class="popup-bilibili">
+															<div class="all-card-title w-text">古都韵律</div>
+														</a>
+														<a href="https://player.bilibili.com/player.html?aid=1454066595&bvid=BV1ni421y7EG&cid=1533226092&p=1&high_quality=1&danmaku=0" class="popup-bilibili">
+															<p class="all-card-subtitle w-text jost-400">吆喝耀京城</p>
+														</a>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="col-12 col-md-6 col-lg-4" id="bilibili-col" data-bs-target="#rhw_detail_content">
+											<div class="all-content all-tab-row-two">
+												<div class="all-card">
+													<a class="popup-bilibili" href="https://player.bilibili.com/player.html?aid=647545788&bvid=BV1qe4y1W728&cid=888423775&p=1&high_quality=1&danmaku=0">
+														<img src="assets/images/gallery/放映厅/院庆.png" alt="this is a all image" class="all-image">
+													</a>
+													<div class="info">
+														<a href="https://player.bilibili.com/player.html?aid=647545788&bvid=BV1qe4y1W728&cid=888423775&p=1&high_quality=1&danmaku=0" class="popup-bilibili">
+															<div class="all-card-title w-text">七秩如歌</div>
+														</a>
+														<a href="https://player.bilibili.com/player.html?aid=647545788&bvid=BV1qe4y1W728&cid=888423775&p=1&high_quality=1&danmaku=0" class="popup-bilibili">
+															<p class="all-card-subtitle w-text jost-400">信管院庆晚会</p>
+														</a>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="col-12 col-md-6 col-lg-4" id="bilibili-col" data-bs-target="#rhw_detail_content">
+											<div class="all-content all-tab-row-two">
+												<div class="all-card">
+													<a class="popup-bilibili" href="https://player.bilibili.com/player.html?aid=1150311166&bvid=BV1fZ421m79u&cid=1434049077&p=1&high_quality=1&danmaku=0">
+														<img src="assets/images/gallery/放映厅/startrails.png" alt="this is a all image" class="all-image">
+													</a>
+													<div class="info">
+														<a href="https://player.bilibili.com/player.html?aid=1150311166&bvid=BV1fZ421m79u&cid=1434049077&p=1&high_quality=1&danmaku=0" class="popup-bilibili">
+															<div class="all-card-title w-text">星轨流光</div>
+														</a>
+														<a href="https://player.bilibili.com/player.html?aid=1150311166&bvid=BV1fZ421m79u&cid=1434049077&p=1&high_quality=1&danmaku=0" class="popup-bilibili">
+															<p class="all-card-subtitle w-text jost-400">人大星轨合集</p>
+														</a>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="col-12 col-md-6 col-lg-4" id="bilibili-col" data-bs-target="#rhw_detail_content">
+											<div class="all-content all-tab-row-two">
+												<div class="all-card">
+													<a class="popup-bilibili" href="https://player.bilibili.com/player.html?aid=383840651&bvid=BV1YZ4y1h7rS&cid=714245684&p=1&high_quality=1&danmaku=0">
+														<img src="assets/images/gallery/放映厅/TheWoman Warrior .png" alt="this is a all image" class="all-image">
+													</a>
+													<div class="info">
+														<a href="https://player.bilibili.com/player.html?aid=383840651&bvid=BV1YZ4y1h7rS&cid=714245684&p=1&high_quality=1&danmaku=0" class="popup-bilibili">
+															<div class="all-card-title w-text">The Woman Warrior</div>
+														</a>
+														<a href="https://player.bilibili.com/player.html?aid=383840651&bvid=BV1YZ4y1h7rS&cid=714245684&p=1&high_quality=1&danmaku=0" class="popup-bilibili">
+															<p class="all-card-subtitle w-text jost-400">英美小说微电影</p>
+														</a>
+													</div>
+												</div>
+											</div>
+										</div>
+							    	</div>
+							    </div>
+  							</div>
+		    			</div>
+		    		</div>
+		    	</div>
+		    </section>
+			<div class="dot-rectangle-two">
+		    	<img src="assets/images/homeimage/dot-rectangle.png" class="rhw-dot-rectangle-two" alt="this is a dot rectangle shape two">
+		    </div>
+		    <div class="ruc-rotating-logo">
+		    	<img src="assets/images/homeimage/ruclogo.png" class="rhw-ruclogo" alt="this is a ruc logo">
+		    </div>
+	    </div>
+	</div>
+<script src="assets/js/jquery.min.js"></script>
+<script src="assets/js/bootstrap.bundle.min.js"></script>
+<script src="assets/js/slick.min.js"></script>
+<script src="assets/js/jquery.magnific-popup.min.js"></script>
+<script src="assets/js/vimeo-pop.js"></script>
+<script src="assets/js/gsap.min.js"></script>
+<script src="assets/js/types.min.js"></script>
+<script src="assets/js/custom.js"></script>
+</body>
+</html>
